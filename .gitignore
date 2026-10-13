@@ -1,0 +1,33 @@
+# Credentials and private configuration
+.env
+.env.*
+!.env.example
+.aws/
+.gcloud/
+*credentials*.json
+*service-account*.json
+*.pem
+*.key
+*.p12
+*.pfx
+*.tfstate
+*.tfstate.*
+*.tfvars
+# Python artifacts
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+# Raw evidence and temporary files
+*.docx
+*.doc
+*.zip
+raw/
+private/
+work/
+# Local editor and OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
